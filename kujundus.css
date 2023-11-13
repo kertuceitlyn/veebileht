@@ -1,17 +1,8 @@
 
-h1 {
+.header {
     background-color: rgb(188, 170, 157);
     color: rgb(56, 32, 18);
     text-align: center; 
     padding: 20px; 
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif
-}
-p {
-    text-align: center;
-    font-size: 24px; 
-    color: white;
-    background-color: rgb(92, 83, 77);
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif
+    
 }
