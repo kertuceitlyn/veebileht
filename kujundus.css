@@ -14,21 +14,15 @@ body {
     margin: 20px auto;
 }
 .txt {
-    transform: rotate(360deg);
     transition-duration: 1s;
     font-size: 100%;
 }
 .txt:hover {
-    transform: rotate(360);
     transition-duration: 1s;
     font-size: 130%;
 }
 a:link {
     color: #382012;
-    text-decoration: none;
-}
-a:visited {
-    color: #6b5142;
     text-decoration: none;
 }
 a:hover {
