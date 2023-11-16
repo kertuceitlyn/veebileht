@@ -1,13 +1,37 @@
-
-.header {
+body {
     background-color: #dbd3cc;
+    margin: auto;
+}
+.header {
+    background-color: #bcaa9d;
     color: #382012;
-    text-align: center; 
+    text-align: center;
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
 }
-body {
-    background-color: #dbd3cc;
-    font-family: 'Quicksand', sans-serif;
+.lingid {
+    width: 50vw;
+    margin: 20px auto;
+}
+.txt {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    font-size: 100%;
+}
+.txt:hover {
+    transform: rotate(360);
+    transition-duration: 1s;
+    font-size: 130%;
+}
+a:link {
     color: #382012;
+    text-decoration: none;
+}
+a:visited {
+    color: #6b5142;
+    text-decoration: none;
+}
+a:hover {
+    color: #d6ffda;
+    text-decoration: none;
 }
