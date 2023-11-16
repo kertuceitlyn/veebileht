@@ -1,11 +1,13 @@
 
 .header {
-    background-color: rgb(188, 170, 157);
-    color: rgb(56, 32, 18);
+    background-color: #dbd3cc;
+    color: #382012;
     text-align: center; 
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
 }
 body {
     background-color: #dbd3cc;
+    font-family: 'Quicksand', sans-serif;
+    color: #382012;
 }
