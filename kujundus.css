@@ -1,0 +1,107 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(taustapilt.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%; 
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.header h1{
+    font-size: 70px; 
+    margin-top: 80px;
+    
+}
+.header h2 {
+    margin: 20px auto; 
+    font-weight: 100; 
+    line-height: 25px;
+    color: white;
+
+}
+
+button{
+    width: 200px; 
+    padding: 15px 0; 
+    text-align: center;
+    margin: 20px 10px; 
+    border-radius: 25px;
+    font-weight:bold; 
+    border:2px solid white; 
+    background: transparent;
+    color:  white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+
+}
+
+span {
+    background: #bcaa9d;
+    height: 100%; 
+    width: 0; 
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    z-index: -1;
+    transition: width 0.5s ease-out;
+
+}
+
+button:hover span{
+    width: 100%;
+
+}
+button:hover {
+    border:none;
+    
+}
+
+
+.veerud {
+   background-color:#bcaa9d; 
+   color: #382012;
+   border: 2px solid white;
+   margin: 20px;
+   padding: 20px;
+
+
+}
+
+.vasak-veerg,
+.keskmine-veerg, 
+.parem-veerg {
+    background-color: rgb(250, 247, 244);
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    color:#382012;
+
+}
+p {
+    color: #382012;
+}
+
+h3 {
+    color:#382012;
+}
+
