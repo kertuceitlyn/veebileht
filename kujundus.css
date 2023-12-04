@@ -55,10 +55,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-
 }
-
-
 .button-container span {
     background: #bcaa9d;
     height: 100%; 
@@ -68,10 +65,7 @@ body {
     left: 0;
     bottom: 0; 
     z-index: -1;
-    transition: width 0.5s ease-out;
-
-    
-    
+    transition: width 0.5s ease-out;  
 }
 .button-container a:hover span{
     width: 100%;
@@ -203,4 +197,8 @@ img {
 .column-left {
     height: 100%;
     padding: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
