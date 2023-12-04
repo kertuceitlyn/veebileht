@@ -9,25 +9,57 @@
 <title>Veebilehe loomine</title>
 </head>
 <body>
-    <title> KASULIK INFO</title>
-<div class="keha">
-    <div class="tabel">
-        <div class="column">
-            <h2>KASULIKUD LINGID</h2>
-            <p><a href="https://www.w3schools.com/" target="_blank">W3Schools</a>- W3Schools sobib kõigile algajatele, sisaldades endas infot nii HTML-i, CSS-i ja JavaScript_i kohta (lisaks ka erinevad programmeerimiskeeled!)</p>
-            <p><a href="https://webdesign.tutsplus.com/build-an-interactive-image-gallery-with-html-css-and-javascript--cms-107881t?fbclid=IwAR2fchT91icW9y3m65aw4pHwNgPSUSmBxWI03kk1HgSKsDAD7rNVMnCepG4" target="_blank">WebDesign</a>- Interaktiivsete pildigaleriide loomine kasutades HTML-i, CSS-i ja JavaScript-i</p>
-            <p><a href="https://www.sliderrevolution.com/design/cool-javascript-animations/?fbclid=IwAR0t7N5eZOHglC2gIGspAuchbCKjdh-KjFVkBSH4k8vOnvwDY0vjUflxaeA" target="_blank">Slide Revolution</a>- Animatsioonide tegemine kasutades JavaScript-i</p>
-            <p><a href="https://validator.w3.org/" target="_blank"> Validaator</a>- Validaator HTML failidele</p>
-            <p><a href="https://jigsaw.w3.org/css-validator/" target="_blank"> Validaator</a>- Validaator CSS failidele</p>
-            <p><a href="https://codebeautify.org/jsvalidate" target="_blank"> Validaator</a>- Validaator JavaScript failidele</p>
-            <p><a href="https://www.codecademy.com/catalog/subject/web-design" target="_blank"> Codecademy</a>- Codecademy pakub nii veebidisaini kursust kui ka õpetusi erinevates programmeerimiskeeltes</p>
-        </div>
-        
-        <div class="column2">
-            <h2>GIT JA VSCODE</h2>
-            <h3>Soovid koostada veebilehte tiimina? Pole probleemi!</h3>
-            <p>1. Mine githubi, lae alla Git ja Visual Studio Code(VSCode)<br>2. Loo repository (Lisa tiimikaaslased kollaboraatoriks) <br> 3.Klooni oma repositoorium(kopeeri repositooriumi https link) git clone <kopeeritud link> <br> 4. Ava projekt VSCodes -> loo uus fail <br> 5. Peale loomist tuleb fail ka repositooriumisse üles panna. Kõigepealt mine oma kloonitud projekti kausta käsuga cd, nüüd kasuta käske: git add. -> git commit -m "mingi sõnum" -> git push (KULDNE TRIO) </kopeeritud></p>
-        </div>
+<div class="veerud">
+    <div class="vasak-veerg">
+        <h2>SAMM 1: HTML</h2>
+        <br>
+        <h3>STRUKTUUR:</h3>
+        <p>&lt;!DOCTYPE html&gt; määrab, mis  HTMLi versioon</p>
+        <p>Pealkiri&lt; head&gt;, &lt;title&gt;</p>
+        <p>Sisu &lt;body&gt;</p>
+        <p>Avamismärk &lt;p &gt;, sulgemismärk &lt; p&gt;</p>
+        <h3>SILDID:</h3>
+        <p>pealkirjade määratlemiseks - &lt;h1&gt; kuni &lt;h6&gt;</p>
+        <h3>LINGID:</h3>
+        <p>&lt;a&gt; href -määrab lingi URL-i  </p>
+        <p>&lt;img&gt; src määrab pildi URLi</p>
+        <h3>LOENDID JA TABELID:</h3>
+        <p>Loendid:&lt;ul&gt; või &lt;ol&gt; ning iga elemendi loendi element on &lt;li&gt;</p>
+        <p>Tabelid: &lt;table&gt; , &lt;tr&gt; reavahetus, &lt;td&gt;  andmeväljad</p> 
+    </div>
+
+    <div class="keskmine-veerg">  
+        <h2>SAMM 2: CSS</h2>
+        <br>
+        <h3>STRUKTUUR:</h3>
+        <p> HTMLis loodud struktuuri alusel lood kõigepealt, mida muutma hakkad ning lisad {}<br> näiteks: body {...}, h1{...}, .table {...} <br> ... asemele lähevad: </p>
+        <h3>VÄRVID:</h3>
+        <p> color, background-color <br>näidisväärtused: color:red; background-color:#f0f0f0;</P>
+        <h3>MÕÕTÜHIKUD JA PAIGUTUS:</h3>
+        <p>width, margin, padding, position <br>näidisväärtused: width:80%; margin:0 auto; padding: 10px; position relative; </p>
+        <h3>TÜPOGRAAFIA:</h3>
+        <p>font-family, font-size, line-height<br>näidisväärtused: font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; line-height: 1.5;</p>
+        <h3>ANIMATSIOONID: </h3>
+        <p>opacity, transition <br>näidisväärtused: opacity: 0; transition: opacity is ease-in-out;</p>
+        <h3>MOODULID</h3>
+        <p> nt. Flexbox, Grid <br> display, justify-content (br)näidisväärtused: display: flex; justify-content: space-between; </p>
+        <h3>KATSETAGE ENDA POOLT SISESTATUD ANDMETEGA! </h3>
+    </div>
+
+    <div class="parem-veerg">
+        <h2>SAMM 3: JavaScript</h2>
+        <br>
+        <h3>STRUKTUUR:</h3>
+        <p> JavaScripti kood saab lisada HTML-dokumendisse, <br> kas otse HTML-faili &lt;script&gt; elementi abil või eraldi JavaScripti-failina,<br> Näiteks: &lt;script src="minujavaskript.js" defer&gt;&lt;/script&gt; <br> või &lt;script&gt;(siin vahel on JavaScript)&lt;/script&gt;</p>
+        <h3>MUUTUJAD JA ANDMETÜÜBID: </h3>
+        <p> Muutujate deklareerimiseks JavaScriptis on "var", "let", "const"<br>Näiteks: var muutuja = "Tere maailm"; let arv = 26;<br>const e = 2.71828</p>
+        <h3>FUNKTSIOONID</h3>
+        <p>Funktioonide deklareerimiseks kasutatake JavaScriptis "function"<br>Näiteks: function hommik(nimi) {<br>console.log("Tere hommikust, " + nimi + "!");<br>}</p>
+        <h3>TINGIMUSLAUSED JA LOOPS:</h3>
+        <p>JavaScriptis saab kasutada "if", "else if" ja "else" tingimuslausetega ning "for", "while" ja "do-while" tsükleid.<br>Näiteks: if (arv &gt; 0) {<br>console.log("Arv on positiivne");<br>} else if (arv &lt; 0) {<br>console.log("Arv on negatiivne");<br>}<br></p>
+        <h3>SÜNDMUSED:</h3>
+        <p>JavaScript võimaldab lisada sündmusi HTML-elementidele<br>Näiteks: võimalik teha nupp, mis salvestab su vajutuse ning teeb midagi selle tulemusena<br><a href="https://www.w3schools.com/jsref/event_onclick.asp" target="_blank">Rohkem infot siin antud näitest</a></p>
+        <h3>KATSETAGE ENDA POOLT SISESTATUD ANDMETEGA! </h3>
     </div>
 </div>
 </body>
