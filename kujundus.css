@@ -6,7 +6,7 @@ body {
     background-position: center;
 }
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(taustapilt.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("taustapilt.jpg");
     background-repeat: no-repeat;
     width: 100%; 
     height: 100vh;
@@ -16,8 +16,7 @@ body {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-  }
-
+}
 .header {
     width: 100%;
     position: absolute; 
@@ -27,23 +26,19 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
 .header h1{
     font-size: 70px; 
-    margin-top: 80px;
-    
+    margin-top: 80px; 
 }
 .header h2 {
     margin: 20px auto; 
     font-weight: 100; 
     line-height: 25px;
     color: white;
-
 }
-
-button{
+button {
     width: 200px; 
     padding: 15px 0; 
     text-align: center;
@@ -52,18 +47,15 @@ button{
     font-weight:bold; 
     border:2px solid white; 
     background: transparent;
-    color:  white
+    color: white;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-   
-
 }
-a{
+a {
     color: white;
     text-decoration: none;
 }
-
 span {
     background: #bcaa9d;
     height: 100%; 
@@ -74,32 +66,21 @@ span {
     bottom: 0; 
     z-index: -1;
     transition: width 0.5s ease-out;
-
 }
-
 button:hover span{
     width: 100%;
-
 }
 button:hover {
     border:none;
-    color: white
-    
+    color: white   
 }
-
-
 .veerud {
    background-color: #bcaa9d; 
    color: white;
-   border: 2px solid white;
-   margin: 20px;
    padding: 20px;
    justify-content: space-between;
-   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(css.jpg)
-
-
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("css.jpg");
 }
-
 .vasak-veerg, 
 .keskmine-veerg, 
 .parem-veerg {
@@ -109,28 +90,20 @@ button:hover {
     margin: 10px;
     border: 2px solid black;
     background-color:#d4cdc9;
-
 }
-
-
-
-   
-
 .veerud h2 {
     color:rgb(63, 60, 56);
     text-align: center;
     padding: 20px;
     background-color: rgb(248, 244, 244);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 p {
     color: rgb(63, 60, 56);
     text-align: center;
-    line-height: 1,5px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 h3 {
     color: rgb(63, 60, 56);
     background-color: #bcaa9d;
@@ -138,34 +111,90 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .tabel {
-    text-align: center;
     background-color: #d4cdc9;
     border-radius: 8px;
-    justify-content: space-between;
     margin: 20px;
     padding: 20px;
-    position: absolute;
+    right: 20px;
+    left: 20px;
 }
-.column h2 {
+.tabel h2 {
+    text-align: center;
     padding: 20px;
     color: rgb(63, 60, 56);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(248, 244, 244);
 }
 .column2 h2 {
-    borer-style: none;
+    text-align: center;
+    border-style: none;
     padding: 20px;
     color: rgb(63, 60, 56);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(248, 244, 244);
 }
 .keha {
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("java.jpg");
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px;
 }
 a:hover {
     color: #87796f;
+}
+img {
+    border-radius: 50%;
+    width: 35vw;
+    max-width: 90%;
+}
+.liigub {
+    position: relative;
+    width: 35vw;
+}
+.pilt {
+    display: block;
+    max-width: 75%;
+}
+.tekst {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4a433a;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1s ease;
+    border-radius: 50%;
+}
+.liigub:hover .tekst {
+    width: 100%;
+    max-width: 75%;
+}
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.jutt {
+    position: relative;
+    text-align: right;
+}
+.column p{
+    position: relative;
+    text-align: left;
+}
+.column {
+    columns: auto 2;
+    display: flex;
+}
+.column-left {
+    height: 100%;
+    padding: 20px;
 }
