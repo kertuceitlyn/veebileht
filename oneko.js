@@ -162,3 +162,5 @@
 
     create();
 })();
+
+// <!-- Javascripti viitamine (1):https://github.com/adryd325/oneko.js -->
